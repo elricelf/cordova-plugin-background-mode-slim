@@ -172,12 +172,12 @@ public class ForegroundService extends Service {
     private Notification makeNotification (JSONObject settings)
     {
         // use channelid for Oreo and higher
-        String CHANNEL_ID = "cordova-plugin-background-mode-id";
+        String CHANNEL_ID = "cordova-plugin-background-mode-slim-id";
         if(Build.VERSION.SDK_INT >= 26){
         // The user-visible name of the channel.
-        CharSequence name = "cordova-plugin-background-mode";
+        CharSequence name = "cordova-plugin-background-mode-slim";
         // The user-visible description of the channel.
-        String description = "cordova-plugin-background-moden notification";
+        String description = "cordova-plugin-background-mode-slimn notification";
 
         int importance = NotificationManager.IMPORTANCE_LOW;
 

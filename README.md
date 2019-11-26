@@ -1,9 +1,9 @@
 
 <p align="left">
-    <b><a href="https://github.com/katzer/cordova-plugin-background-mode/tree/example">SAMPLE APP</a> :point_right:</b>
+    <b><a href="https://github.com/katzer/cordova-plugin-background-mode-slim/tree/example">SAMPLE APP</a> :point_right:</b>
 </p>
 
-Cordova Background Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-background-mode.svg)](http://badge.fury.io/js/cordova-plugin-background-mode) [![Build Status](https://travis-ci.org/katzer/cordova-plugin-background-mode.svg?branch=master)](https://travis-ci.org/katzer/cordova-plugin-background-mode) [![codebeat badge](https://codebeat.co/badges/49709283-b313-4ced-8630-f520baaec7b5)](https://codebeat.co/projects/github-com-katzer-cordova-plugin-background-mode)
+Cordova Background Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-background-mode-slim.svg)](http://badge.fury.io/js/cordova-plugin-background-mode-slim) [![Build Status](https://travis-ci.org/katzer/cordova-plugin-background-mode-slim.svg?branch=master)](https://travis-ci.org/katzer/cordova-plugin-background-mode-slim) [![codebeat badge](https://codebeat.co/badges/49709283-b313-4ced-8630-f520baaec7b5)](https://codebeat.co/projects/github-com-katzer-cordova-plugin-background-mode-slim)
 =========================
 
 Plugin for the [Cordova][cordova] framework to perform infinite background execution.
@@ -29,7 +29,7 @@ The plugin can be installed via [Cordova-CLI][CLI] and is publicly available on 
 
 Execute from the projects root folder:
 
-    $ cordova plugin add cordova-plugin-background-mode
+    $ cordova plugin add cordova-plugin-background-mode-slim
 
 Or install a specific version:
 
@@ -37,11 +37,11 @@ Or install a specific version:
 
 Or install the latest head version:
 
-    $ cordova plugin add https://github.com/katzer/cordova-plugin-background-mode.git
+    $ cordova plugin add https://github.com/katzer/cordova-plugin-background-mode-slim.git
 
 Or install from local source:
 
-    $ cordova plugin add cordova-plugin-background-mode --searchpath <path>
+    $ cordova plugin add cordova-plugin-background-mode-slim --searchpath <path>
 
 
 ## Usage

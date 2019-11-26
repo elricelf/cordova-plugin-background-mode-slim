@@ -52,7 +52,7 @@ before_script:
 - cd myApp
 - sed -i -r 's:\(<content.*\):\1<preference name="android-targetSdkVersion" value="16" />:' config.xml
 - cordova platform add android@latest browser@latest ios@latest
-- cordova plugin add cordova-plugin-background-mode --searchpath $TRAVIS_BUILD_DIR
+- cordova plugin add cordova-plugin-background-mode-slim --searchpath $TRAVIS_BUILD_DIR
 - cordova platform ls
 - cordova plugin ls
 

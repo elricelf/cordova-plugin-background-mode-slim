@@ -2,14 +2,14 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-background-mode"
+        id="cordova-plugin-background-mode-slim"
         version="0.7.3">
 
     <name>BackgroundMode</name>
 
     <description>Prevent apps from going to sleep in background.</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-background-mode.git</repo>
+    <repo>https://github.com/katzer/cordova-plugin-background-mode-slim.git</repo>
 
     <keywords>appplant, background</keywords>
 
@@ -43,7 +43,7 @@
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
-                <string>audio</string>
+                <string>location</string>
             </array>
         </config-file>
 
